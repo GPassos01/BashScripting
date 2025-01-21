@@ -1,0 +1,30 @@
+chmod +x <arquivo> => muda a permissao para ser executavel
+
+grep <palavra> => filtra resultados com a palavra
+    -v => filtra resultados sem a palavra
+    -i => ignora diferenca de maiuscula e minuscula
+    -c => conta quantas vezes a palavra aparece
+
+awk '{print $NUMERO-DA-COLUNA}' ARQUIVO => mostra so a coluna numerada do ARQUIVO (caso fosse 1 seria a primeira coisa de cada linha ate o espaco)
+
+ps => mostra processos ativos de forma resumida
+    aux => detalha maisn a lista e os processos
+    -e => processos em execucao no momento
+    -o <nome das colunas> => mostra so as colunas especificadas
+    --sort=-%mem => exemplo ordena de acordo com a % de memoria usada, o - significa ordem decrescente
+
+pgrep <palavra> => pega processos relacionados a palavra, equivale a "ps aux | grep <palavra>"
+
+top => mostra processos em execucao no servidor
+    F detalha as legendas
+
+O pipe ("|") atua no direcionamento da saída de um comando para entrada de outro, criando, dessa forma, um fluxo contínuo de dados.
+
+cat <arquivo> => mostra conteudo no terminal
+https://www.hostinger.com.br/tutoriais/comando-cat-linux
+
+curl <url> => renderiza o codigo fonte completo da pagina inicial do dominio
+    -o -O => pode ser usado para fazer download remoto
+    pode ser usado para diversas funcoes nas urls, como mandar requisicoes WEB.
+
+head <arquivo> => imprime as 10 primeiras linhas do arquivo por padrao
