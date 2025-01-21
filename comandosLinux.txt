@@ -26,5 +26,6 @@ https://www.hostinger.com.br/tutoriais/comando-cat-linux
 curl <url> => renderiza o codigo fonte completo da pagina inicial do dominio
     -o -O => pode ser usado para fazer download remoto
     pode ser usado para diversas funcoes nas urls, como mandar requisicoes WEB.
+https://www.hostinger.com.br/tutoriais/comando-curl-linux#:~:text=O%20que%20é%20Comando%20Curl%3F,ferramenta%20de%20transferência%20de%20dados.
 
 head <arquivo> => imprime as 10 primeiras linhas do arquivo por padrao
